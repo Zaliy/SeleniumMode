@@ -30,7 +30,7 @@ class Test:
             self.logger.info(("浏览器启动失败"))
             return False
 
-    def baidu(self):
+    def baidu(self):  # 测试流程
         if self.driver is None:
             self.create_chrome()
         if self.driver is not None:

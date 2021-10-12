@@ -1,10 +1,10 @@
 DATABASE:
-  database:
+  database:数据库名称
 #  engine: peewee.MySQLDatabase
-  host:
-  password:
-  port:
-  user:
+  host:数据库ip地址
+  password:数据库密码
+  port:端口
+  user:用户
 USER_AGENT:
   [
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0",
@@ -13,5 +13,5 @@ USER_AGENT:
   "Mozilla/5.0 (X11; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0"
   ]
 
-CLIENT_IP:
+CLIENT_IP:seleniumGrid 连接主机ip
 

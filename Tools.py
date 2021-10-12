@@ -177,6 +177,7 @@ class EmailHandler:
         finally:
             cls.__imap_logout(imap)
 
+            
 if __name__ == "__main__":
     is_check = False
     email_form = "security@facebookmail.com"   # 获取验证码

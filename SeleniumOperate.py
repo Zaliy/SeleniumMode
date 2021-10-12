@@ -136,8 +136,3 @@ class SeleniumOperate:
             sleep(random.uniform(3, 5))
         except:
             pass
-
-
-
-
-

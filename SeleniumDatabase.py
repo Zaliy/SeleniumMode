@@ -25,7 +25,6 @@ class FacebookAccounts(Model):
         database = database
         table_name = 'facebook_accounts'
 
-
 # if __name__ == '__main__':
 #     FacebookPosts.drop_table()
 #     FacebookPosts.create_table()
